@@ -1,70 +1,92 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://mooditude.app/wp-content/uploads/2022/01/aimless-scrolling.jpeg" alt="Alt text" title="Optional title" height="500" width="900">
 
-## Available Scripts
+# Infinite Scrolling Contact List
+This is a web application built using React that displays an infinite scrolling list of contacts. The contacts are loaded dynamically from an external API as the user scrolls down the list.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Documentations](#documentation)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Badges](#badges)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+To get started with the Project, you'll need to have Node.js installed on your machine. Once you have those installed, follow these steps:
+```bash
+Clone the repository to your local machine: git clone https://github.com/your-username/infinite-scrolling-contact-list.git
+Navigate to the project directory: cd infinite-scrolling-contact-list
+Install the required dependencies: npm install
+Start the development server: npm start
+Open a web browser and go to http://localhost:3000 to view the application.rt
+```
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The following features are available in the API:
 
-### `npm test`
+- Infinite scrolling: contacts are loaded as the user scrolls down the list
+- Responsive design: the application is optimized for desktop and mobile devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+Contributions are welcome! To contribute to the project, follow these steps:
+```bash
+1. Fork the repository and create a new branch for your changes.
+2. Make your changes and test them locally.
+3. Create a pull request with a description of your changes.
+4. Wait for a code review and approval before merging.
+```
+**Note**: Please ensure that your code adheres to the existing style and passes the unit tests before submitting a pull request.
+## Documentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [React-bootstrap](https://react-bootstrap.github.io/)
+- [React-dom](https://reactjs.org/docs/react-dom.html)
+- [React-icons](https://react-icons.github.io/react-icons/)
+- [React-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
+- [React-router-dom](https://reactrouter.com/docs)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The following dependencies are required to run the Get YouTube Subscribers :
 
-### `npm run eject`
+```bash
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-loading-skeleton": "^3.1.1",
+    "react-router-dom": "^6.0.2",
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application was built using the following technologies:
+```bash
+1. React: A JavaScript library for building user interfaces. React is used to create reusable UI components that can be combined to create complex web applications.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. React Bootstrap: A popular CSS framework that provides pre-built UI components for use in React applications. React Bootstrap is used to style the contact list and make it look great on any device.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. React Router: A routing library for React applications. React Router is used to manage the navigation between different views in the application.
 
-## Learn More
+4. React Icons: A collection of popular icons for use in React applications. React Icons is used to display icons in the search and sorting buttons.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. React Loading Skeleton: A library for displaying loading indicators in React applications. React Loading Skeleton is used to display a loading indicator while the contact list is being fetched from the API.
+```
+## API Reference
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application uses the Random User API to fetch contact data. This API generates random user data, including names, email addresses, and profile pictures. The application makes API requests to this service as the user scrolls down the contact list, allowing it to display an unlimited number of contacts without performance issues.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [MIT](https://choosealicense.com/licenses/mit/)
 
-### Analyzing the Bundle Size
+## Badges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![React Router](https://img.shields.io/badge/React_Router-5.2.0-green)](https://reactrouter.com/)
